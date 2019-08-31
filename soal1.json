@@ -1,0 +1,19 @@
+{
+	"name": "Mardiana Wulansari", //string
+	"age": 22, //Number
+	"address": "Puri Cinere Hijau Blok c3 No 5, Pancoran Mas, Depok", // string
+	"hobbies": ["Menyanyi","Bulutangkis"],
+	"is_married": false,
+	"list_school": {
+		"Name": "Universitas Muhammadiyah Yogyakarta",
+		"Year_in": 2014,
+		"Year_out": 2018,
+		"Major": "Teknik Elektro"
+	},
+	"skills" : {
+		"skill_name": "Web Programmer",
+		"Level": "Beginner"
+	},
+	"interest_in_coding": true,
+
+}

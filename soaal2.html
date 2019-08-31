@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validasi</title>
+</head>
+<body>
+<form action="#" method="post" onsubmit="return Validasi();">
+	<fieldset>
+<legend> Form Validasi </legend>
+<label for="username">Username</label>
+<input type="username" name="username">
+<label for="password">Password</label>
+<input type="password" name="password"> 
+<input type="submit" name="submit" value="Login">
+</form>
+
+<script type="text/javascript">
+function Validasi(){
+	username(document.getElementById('usernameexp1'), 'Tidak Boleh di Awali Angka');
+  	password(document.getElementById('passwordExp1'), 'Harus menggunakan = !!');
+		var usernameExp=/^([Xrutaf888])+$/;
+		var usernameExp1=/^([1 Diana])+$/;
+		var passwordExp=/^=[passW0rd=]+$/;
+		var passwordExp1=/^=[C0d3YourFuture!#]+$/;
+				if(!username.match(usernameExp)) 
+					{ return true; }
+				if(!username.match(usernameExp1)) 
+					{ return false; }
+				if(!password.match(passwordExp)) 
+					{ return true; }
+				if(!password.match(passwordExp1)) 
+					{ return false; }
+				}
+</script>
+</body>
+</html>
